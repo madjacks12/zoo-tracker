@@ -5,11 +5,17 @@ import { Animal } from './animal.model';
   selector: 'app-root',
   template: `
     <div class="container">
-      <h1>Tap List For {{month}}/{{day}}/{{year}}</h1>
-      <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
-      <hr>
+      <div class="item-1">
+        <h1>Animal List For {{month}}/{{day}}/{{year}}</h1>
+        <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
+      </div>
+      <div class="item item-2" fxFlex="50%">
       <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
-      <new-animal (newBAnimalSender)="addAnimal($event)"></new-animal>
+      </div>
+      <div class="item-3">
+      <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
+      </div>
+    <hr>
     </div>
   `
 })

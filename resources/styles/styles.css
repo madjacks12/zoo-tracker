@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#ul-column {
+    height: 300px; /*your fixed height*/
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+}
+#ul-column li {
+    display: inline-block; /*necessary*/
+}
+
+.form-col-2 {
+  justify-content: flex-end;
+}
+
+.item-1 {
+  order: 1;
+}
+.item-2 {
+  order: 2;
+}
+.item-3 {
+  order: 3;
+}
