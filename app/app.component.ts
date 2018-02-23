@@ -36,7 +36,7 @@ export class AppComponent {
   }
 
   addAnimal(newAnimalFromChild: Animal) {
-  this.masterBrewList.push(newAnimalFromChild);
+  this.masterAnimalList.push(newAnimalFromChild);
 }
 
 }
