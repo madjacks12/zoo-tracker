@@ -2,9 +2,9 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }   from './app.component';
 import { FormsModule }  from '@angular/forms';
-import { BrewListComponent }  from './brew-list.component';
-import { EditBrewComponent }  from './edit-brew.component';
-import { NewBrewComponent } from './new-brew.component';
+import { AnimalListComponent }  from './animal-list.component';
+import { EditAnimalComponent }  from './edit-animal.component';
+import { NewAnimalComponent } from './new-animal.component';
 import { EmptyPipe } from './empty.pipe';
 
 @NgModule({
@@ -12,7 +12,7 @@ import { EmptyPipe } from './empty.pipe';
             FormsModule,
                           ],
   declarations: [ AppComponent,
-                  BrewListComponent,
+                  AnimalListComponent,
                   EditBrewComponent,
                   NewBrewComponent,
                   EmptyPipe],
