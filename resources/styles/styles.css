@@ -4,14 +4,16 @@
   flex-wrap: wrap;
 }
 
-#ul-column {
-    height: 300px; /*your fixed height*/
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+
+.new-form {
+  column-count: 2;
+  background-color: #D3D3D3;
+  margin: 5px;
+  padding: 5px;
 }
-#ul-column li {
-    display: inline-block; /*necessary*/
+
+.edit-form {
+  column-count: 2;
 }
 
 .form-col-2 {
@@ -26,4 +28,22 @@
 }
 .item-3 {
   order: 3;
+}
+
+#ul-column {
+  height: 300px; /*your fixed height*/
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+}
+#ul-column li {
+  display: inline-block; /*necessary*/
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(33, 147, 234, 0.4);
+
+}
+
+input {
+  width: 100px;
 }

@@ -5,28 +5,28 @@ import { Animal } from './animal.model';
   selector: 'new-animal',
   template: `
   <h1>Enter A New Animal</h1>
-   <div>
+   <div class="new-form">
       <div class="form-col-1">
         <label>Enter Animal Species:</label>
-        <input #newSpecies>
+        <input #newSpecies><br>
        <label>Enter Animal Name:</label>
-         <input #newName>
+         <input #newName><br>
        <label>Enter Animal Age:</label>
-         <input #newAge>
+         <input #newAge><br>
        <label>Enter Animal Diet:</label>
-         <input #newDiet>
+         <input #newDiet><br>
        <label>Enter Animal Location:</label>
-         <input #newLocation>
+         <input #newLocation><br>
      </div>
      <div class="form-col-2">
        <label>Enter Animal Caretakers:</label>
-        <input #newCaretakers>
+        <input #newCaretakers><br>
        <label>Enter Animal Sex:</label>
-        <input #newSex>
+        <input #newSex><br>
        <label>Enter Animal Likes:</label>
-        <input #newLikes>
+        <input #newLikes><br>
        <label>Enter Animal Dislikes:</label>
-        <input #newDislikes>
+        <input #newDislikes><br>
       </div>
     <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value);
     newSpecies.value=''; newName.value=''; newAge.value=''; newDiet.value='';
