@@ -16,7 +16,7 @@ To run this webpage you will need to have Gulp and NodeJS installed on your comp
 1. To start the browser syncing and file watching, just first run `$ gulp build` followed by  `$ gulp serve` to run the website on your default browser.
 
 
-##FurtherImplementation.
+## FurtherImplementation.
   In the future I would like to include"
   1. Ability to filter animals by more criteria such as diet, caretaker and species.
   2. Generate Timestamps for when each animal was admitted.
