@@ -1,9 +1,20 @@
-##Planning
-  This app should include:
-  1. Models for each animal with these parameters: Species, Name, Age, Diet, Location, Caretakers, Sex, Likes, Dislikes.
-  2. A form for users to add new animals to the app.
-  3. A dropdown menu that will filter animals by age. Either less than  or equal to 2 years old, or older than 2.
-  4. A second form for users to edit details about an animal.
+# Zoo-Tracker
+#### _By Matthew Jackson, 2/23/2018_
+
+This webpage lets users see a list of animals that the zoo owns and see various information about each animal including: Species, Name, Age, Diet, Location, Number of Caretakers, Sex, Animal Likes and Animal Dislikes. A user can also add new animals and edit existing animals.
+
+## Getting Started
+
+To run this webpage you will need to have Gulp and NodeJS installed on your computer.
+
+## Setup
+
+1. `$git clone https://github.com/madjacks12/solar-age`
+2. Run `$ npm install` and `$ bower install` inside that directory.
+
+## Usage
+1. To start the browser syncing and file watching, just first run `$ gulp build` followed by  `$ gulp serve` to run the website on your default browser.
+
 
 ##FurtherImplementation.
   In the future I would like to include"
